@@ -52,8 +52,8 @@ const Oshpaz = () => {
     
   return (
     <div className='container mx-auto w-[85%]'>
-    <div className='grid grid-cols-3 gap-x-5'>
-        <div className='col-span-1 border-r-2 border-gray-400 '>
+    <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-5'>
+        <div className='lg:col-span-1 lg:border-r-2 lg:border-gray-400 '>
             {
                 selector?.value.map((item, idx) => (<li
                     className='flex gap-2 items-center m-4 p-2 rounded-2xl bg-gray-200'
@@ -65,7 +65,7 @@ const Oshpaz = () => {
                 </li>))
             }
         </div>
-        <div className='col-span-2' >
+        <div className='lg:col-span-2' >
             {
                 order?.length > 0 ? <div className='bg-gray-200 min-h-36 p-5 w-full' ref={checkElement}>
                     {

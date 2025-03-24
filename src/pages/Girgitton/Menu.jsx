@@ -21,26 +21,11 @@ const Menu = () => {
             key: 1,
             label: <div className='flex items-center gap-2 p-2 rounded-xl border-gray-300 border-1 hover:shadow-blue-300 hover:shadow-[0px_0px_6px]'>
                 <img src={ovqatlar} alt="meals" className=' rounded-xl w-[36px] h-[36px]' />
-                <h1 className='text-xl font-semibold'>Ovqatlar</h1>
+                <h1 className='text-xl font-semibold'>Menu</h1>
             </div>,
             children: <Meals/>
         },
-        {
-            key: 2,
-            label: <div className='flex items-center gap-2 p-2 rounded-xl border-gray-300 border-1 hover:shadow-blue-300 hover:shadow-[0px_0px_6px]'>
-                <img src={ichimliklar} alt="drinks" className=' rounded-xl w-[36px] h-[36px]' />
-                <h1 className='text-xl font-semibold'>Ichimliklar</h1>
-            </div>,
-            children: <Drinks/>
-        },
-        {
-            key: 3,
-            label: <div className='flex items-center gap-2 p-2 rounded-xl border-gray-300 border-1 hover:shadow-blue-300 hover:shadow-[0px_0px_6px]'>
-                <img src={salatlar} alt="salats" className=' rounded-xl w-[36px] h-[36px]' />
-                <h1 className='text-xl font-semibold'>Salatlar</h1>
-            </div>,
-            children: <Salats/>
-        }
+       
     ]
     return (
         <div className='flex flex-col'>

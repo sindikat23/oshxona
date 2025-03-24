@@ -15,22 +15,32 @@ const OrderSlice = createSlice({
                 current.push(action.payload)
                 state.value = current
             }
-            else{
+            else {
                 let current = [...state.value];
-                let finded = current.find((item)=>(item.client == action.payload.client));
-                if(finded){
+                let finded = current.find(
+                    (item) => item.client == action.payload.client);
+                if (finded) {
                     finded.orders = action.payload.orders
-                    state.value = current                
+                    state.value = current
                 }
-                else{
+                else {
                     current.push(action.payload)
                     state.value = current
                 }
             }
+        },
+        deleteOrder: (state, actions) => {
+            console.log("deleteOrder", actions.payload);
+            let ord = [...state.value]
+            let current_orders = ord.filter(
+                (item) => (item.client !== actions.payload.orderId));
+            state.value = current_orders
+            console.log(current_orders);
+
         }
     }
 })
 
-export const { setOrder } = OrderSlice.actions
+export const { setOrder, deleteOrder } = OrderSlice.actions
 
 export default OrderSlice.reducer

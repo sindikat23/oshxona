@@ -110,19 +110,19 @@ export const meals = [
     {
         image: shorva,
         name: "Sho'rva",
-        category: "sup",
+        category: "meal",
         price: 35000
     },
     {
         image: mastava,
         name: "Mastava",
-        category: "sup",
+        category: "meal",
         price: 30000
     },
     {
         image: xash,
         name: "Xash",
-        category: "sup",
+        category: "meal",
         price: 32000
     },
     {
@@ -138,39 +138,117 @@ export const meals = [
     },{
         image: qozon_kabob,
         name: "Qozon kabob",
-        category: "mael",
+        category: "meal",
         price: 38000
+    },
+    {
+        image: pepsi,
+        name: "Pepsi",
+        category: "drink",
+        price: 11000
+    },
+    {
+        image: cola,
+        name: "Coca-Cola",
+        category: "drink",
+        price: 11000
+    },
+    {
+        image: fanta,
+        name: "Fanta",
+        category: "drink",
+        price: 11000
+    },
+    {
+        image: water,
+        name: "Suv",
+        category: "drink",
+        price: 4000
+    },
+    {
+        image: 'https://cdn1.ozone.ru/multimedia/1019607850.jpg',
+        name: "Choy",
+        category: "drink",
+        price: 5000
+    },
+    {
+        image: achichuk,
+        name: "Achichuk",
+        category: "salat",
+        price: 15000
+    },
+    {
+        image: damskiy,
+        name: "Damskiy",
+        category: "salat",
+        price: 25000
+    },
+    {
+        image: grekcha,
+        name: "Grekcha",
+        category: "salat",
+        price: 23000
+    },
+    {
+        image: oliviya,
+        name: "Oliviya",
+        category: "salat",
+        price: 25000
+    },
+    {
+        image: suzma,
+        name: "Suzma",
+        category: "salat",
+        price: 15000
+    },
+    {
+        image: svejiy,
+        name: "Svejiy",
+        category: "salat",
+        price: 20000
+    },
+    {
+        image: tarnov,
+        name: "Tarnov",
+        category: "salat",
+        price: 28000
+    },
+    {
+        image: yaponcha,
+        name: "Yaponcha",
+        category: "salat",
+        price: 30000
     },
 ];
 export const drink = [
     {
         image: pepsi,
         name: "Pepsi",
-        category: "sparkling water",
+        category: "drink",
         price: 11000
     },
     {
         image: cola,
         name: "Coca-Cola",
-        category: "sparkling water",
+        category: "drink",
         price: 11000
     },
     {
         image: fanta,
         name: "Fanta",
-        category: "sparkling water",
+        category: "drink",
         price: 11000
     },
     {
         image: water,
         name: "Suv",
-        category: "Water",
+        category: "drink",
         price: 4000
     },
     {
         image: 'https://cdn1.ozone.ru/multimedia/1019607850.jpg',
         name: "Choy",
-        category: "tea",
+        category: "drink",
         price: 5000
     },
 ];

@@ -11,7 +11,7 @@ const Salats = () => {
     const dispatch = useDispatch()
     const params = useParams()
 
-    console.log(selector);
+    // console.log(selector);
 
     const [salatsList, setSalatsList] = useState(salat.map((item) => ({
         ...item,
@@ -55,7 +55,7 @@ const Salats = () => {
                 })
             }
 
-            <Button onClick={() => { setCart() }}>Korzinka</Button>
+            <Button onClick={() => { setCart() }}>Tasdiqlash</Button>
         </div>
     )
 }

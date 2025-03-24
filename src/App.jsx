@@ -4,7 +4,7 @@ import Footer from "./components/Layout/Footer";
 
 function App() {
   let isAuth = localStorage.getItem("isAuth")
-  console.log(isAuth);
+  // console.log(isAuth);
 
   if (isAuth) {
     return (
